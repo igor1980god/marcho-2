@@ -1,10 +1,9 @@
 html,
 body{
-  height: 100%;
-  color: #fff;
+  color: $defauld;
   font-size: 16px;
-  line-height: 22px;
-  @extend %montserrat-400;
+  line-height: 26px;
+  @extend %quicksand-500;
 }
 
 // ПРИЖАТИЕ FOOTERA К НИЗУ
@@ -26,7 +25,7 @@ body{
 
 
 .container{
-  max-width: 1215px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
